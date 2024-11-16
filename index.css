@@ -1,0 +1,34 @@
+h2{
+    color:#d56f3e;
+}
+span{
+    color:goldenrod
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    border: 2px solid black;
+    border-radius: 1rem;
+    width:20rem;
+    padding:0.6rem 0.6rem 0 0.6rem;
+}
+
+img{
+    width: 19.9rem;height:11rem;
+    border:none;
+    border-radius: 0.8rem;
+    
+}
+h4 {
+    text-align: right;
+    color: #3c787e;
+  }
+@media screen and (max-width:716px) {
+    #pets{
+        flex-direction: column;
+    }
+    
+}  
